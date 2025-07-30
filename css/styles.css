@@ -18,11 +18,12 @@
 
 //================body=================//
 
+
 body {
-font-family: "Roboto", sans-serif;
-line-height: 1.5;
-color: var(--color-navy-blue);
-background-color: var(--color-white);
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    color: var(--color-navy-blue);
+    background-color: var(--color-white);
 }
 
 h1, h2, h3 {
@@ -43,17 +44,15 @@ li {
 }
 
 .button {
+    font-family: "Roboto", sans-serif ;
     border: none;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: var(--color-iris);
     font-weight: 500;
     font-size: 16px;
     color: var(--color-white);
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em ;
 }
 
 .button:hover {
@@ -77,16 +76,22 @@ li {
 .header-nav-studio {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--color-navy-blue)
-}
-.header-nav-logo-span{
+    text-transform: uppercase;
     color: var(--color-iris);
+}
+.header-nav-logo-span {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-navy-blue);
+}
+
+.header-address {
+    font-style: normal
 }
 
 .header-nav-list{
@@ -121,8 +126,7 @@ li {
     
 //=================section1===============//
 .business {
-    width: 1440px;
-    height: 600px;
+    
 }
 
 .business {
@@ -132,13 +136,15 @@ li {
 .business-text {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--color-white);
 }
 
 //=================section2===============//
+.
+
 .paragraph-s {
     font-weight: 500;
     font-size: 20px;
@@ -156,12 +162,23 @@ li {
 }
 
 //=================section3===============//
+
+.team-our {
+    background-color: var(--color-cloud);
+}
+
+
 .team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: var(--color-navy-blue);
+    text-transform: capitalize;
+}
+
+.team-li {
+    background-color: var(--color-white);
 }
 
 .team-hero {
@@ -183,10 +200,11 @@ font-weight: 500;
 .our-portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--color-navy-blue);
+    text-transform: capitalize
 }
 
 .our-portfolio-b {
@@ -200,7 +218,9 @@ font-weight: 500;
 .text-portfolio {
     font-weight: 400;
     font-size: 16px;
-    line-height 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
 }
+
+//===============footer===============//
