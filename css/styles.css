@@ -18,7 +18,9 @@
 
 //================body=================//
 
-    
+body {
+
+}
 
 body {
     font-family: "Roboto",sans-serif;
@@ -174,11 +176,11 @@ li {
 //=================section3===============//
 
 .team-our {
-    
+
 }
 
 .team-our {
-    background-color: var(--color-cloud);
+    color: var(--color-cloud);
 }
 
 .team {
