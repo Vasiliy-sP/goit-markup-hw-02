@@ -215,10 +215,13 @@ li {
 
 //=================section4===============//
 
-
-.our-portfolio {
-
+.portfolio {
 }
+
+.portfolio {
+    background-color: var(--color-cloud);
+}
+
 .our-portfolio {
     font-weight: 700;
     font-size: 36px;
