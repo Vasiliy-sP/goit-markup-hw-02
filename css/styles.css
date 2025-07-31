@@ -19,9 +19,9 @@
 //================body=================//
 
     
+
 body {
     font-family: "Roboto",sans-serif;
-    line-height: 1.5;
     color: var(--color-slate);
     background-color: var(--color-white);
 }
@@ -80,8 +80,10 @@ li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris);
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
 }
+
+
 .header-nav-logo-span {
     font-weight: 700;
     font-size: 18px;
@@ -172,6 +174,7 @@ li {
 //=================section3===============//
 
 
+
 .team-our {
     background-color: var(--color-cloud);
 }
@@ -181,9 +184,9 @@ li {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: var(--color-navy-blue);
     text-transform: capitalize;
     text-align: center;
+    color: var(--color-navy-blue);
 }
 
 .team-li {
@@ -210,13 +213,16 @@ li {
 
 
 .our-portfolio {
+
+}
+.our-portfolio {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--color-navy-blue);
     text-transform: capitalize;
+    color: var(--color-navy-blue);
 }
 
 .our-portfolio-b {
@@ -238,7 +244,29 @@ li {
 //===============footer===============//
 
 .footer {
+    
+}
+
+.footer {
     background-color: var(--color-navy-blue);
+}
+
+.footer-web {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-iris);
+}
+
+.footer-studio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-cloud);
 }
 
 .footer-text {
