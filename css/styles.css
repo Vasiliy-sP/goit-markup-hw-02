@@ -173,7 +173,9 @@ li {
 
 //=================section3===============//
 
-
+.team-our {
+    
+}
 
 .team-our {
     background-color: var(--color-cloud);
@@ -249,6 +251,7 @@ li {
 
 .footer {
     background-color: var(--color-navy-blue);
+    font-family: "Raleway",sans-serif;
 }
 
 .footer-web {
